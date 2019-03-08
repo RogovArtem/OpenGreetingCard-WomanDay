@@ -17,8 +17,8 @@ body, html {
     height: 100vh;
 }
 .text-container{
-  position:absolute;
-  top:40%;
+  position:relative;
+  top:30%;
   
 }
 
