@@ -68,7 +68,7 @@ body, html {
 
 
 .text > *{
-    font-size: 3.2vh;
+    font-size: 15vh;
 
     position:relative;
     /* transform:translate(-100%, -50%); */
@@ -117,7 +117,7 @@ body, html {
 
 .snowflake {
     color: #fff;
-    font-size: 1em;
+    font-size: 5vh;
     font-family: Arial;
     text-shadow: 0 0 1px #000;
 }
