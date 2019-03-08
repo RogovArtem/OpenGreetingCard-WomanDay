@@ -17,10 +17,7 @@ body, html {
     height: 100vh;
 }
 .text-container{
-  display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+  top:40%;
   
 }
 
