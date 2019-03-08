@@ -68,26 +68,13 @@ body, html {
 
 
 .text > *{
-    font-size: 8vw;
+    font-size: 8vmin;
 
     position:relative;
     /* transform:translate(-100%, -50%); */
 }
 
-@media all and (width>height)
-{
-  .text > *
-  {
-    font-size: 8vh;
-  }
-}
-@media all and (height>width)
-{
-  .text > *
-  {
-    font-size: 8vw;
-  }
-}
+
 
 .text2, .text3 {
     transform: translateY(100%);
