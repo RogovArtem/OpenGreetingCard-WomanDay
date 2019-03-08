@@ -90,6 +90,13 @@ body, html {
     align-items:center;
 }
 
+.new, .text1, .text2, .text3 {
+
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
 
 
 
