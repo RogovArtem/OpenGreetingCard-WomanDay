@@ -74,6 +74,21 @@ body, html {
     /* transform:translate(-100%, -50%); */
 }
 
+@media screen and (width>height)
+{
+  body or yourdiv element
+  {
+    font-size: 8vh;
+  }
+}
+@media screen and (height>width)
+{
+  body or yourdiv element
+  {
+    font-size: 8vw;
+  }
+}
+
 .text2, .text3 {
     transform: translateY(100%);
     display:none;
