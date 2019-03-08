@@ -33,8 +33,8 @@ document.addEventListener('click', _=>{
     if (counter===3){
     tl
     
-    .to(text, 4, {display:'block', x:'-100%'})
-    .to(text3, 0.3, {display:'block', x:'-100%'})
+    .to(text, 4, {display:'block', x:'-100%'}, 'steel')
+    .to(text3, 0.3, {display:'block', x:'-100%'}, 'steel')
     .to(hero, 2, {x:'-100%', width:'100%'}, 'steel')
     .to(overlay, 2, {width:'100%'},'steel')
     .to(overlay, 0.5, {width:0, left:0, delay:2}, 'steel')
