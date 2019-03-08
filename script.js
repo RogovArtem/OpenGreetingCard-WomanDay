@@ -34,7 +34,7 @@ document.addEventListener('click', _=>{
     tl
     
     .to(text, 4, {display:'block', x:'-100%'}, 'steel')
-    .to(text3, 3.5, {display:'block', x:'-100%'}, 'steel')
+    .to(text3, 4, { x:'-100%'}, 'steel')
     .to(hero, 2, {x:'-100%', width:'100%'}, 'steel')
     .to(overlay, 2, {width:'100%'},'steel')
     .to(overlay, 0.5, {width:0, left:0, delay:2}, 'steel')
