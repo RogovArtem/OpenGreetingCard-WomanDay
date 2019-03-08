@@ -22,10 +22,7 @@ document.addEventListener('click', _=>{
     if (counter===1){
     tl
         .to(text1, 0.3, {y:'-100%', display:'none'} )
-        .to(text2, 0.3, {display:'flex',
-          flex-direction:'column',
-          justify-content:'center',
-          align-items:'center', y:'0', delay:0.1})
+        .to(text2, 0.3, {display:'flex', y:'0', delay:0.1})
     }
     if (counter===2){
     tl
