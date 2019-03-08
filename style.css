@@ -97,8 +97,8 @@ body, html {
     align-items:center;
 }
 
-div span {
-  display:block;
+.text1 div {
+  display:inline-block;
 }
 
 
