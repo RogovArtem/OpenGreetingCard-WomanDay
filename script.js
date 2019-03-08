@@ -17,7 +17,7 @@ document.addEventListener('click', _=>{
         .to(text, 0, {display:'block'}, 'some')
         .to(hero, 1, {x:'0%'},'slide')
         .to(overlay, 1, {width:0, right:0}, 'slide')
-        .to(text, 1.5, {x:'24%', delay:0.1}, 'slide')
+        .to(text, 1.5, { delay:0.1}, 'slide')
     }
     if (counter===1){
     tl
