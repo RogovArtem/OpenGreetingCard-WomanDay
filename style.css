@@ -75,7 +75,7 @@ body, html {
 }
 
 .text {
-    transform:translate(-100%,-50%);
+    transform:translate(-100%);
     width: 100%;
     position:relative;
     overflow:hidden;
