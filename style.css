@@ -68,7 +68,7 @@ body, html {
 
 
 .text > *{
-    font-size: 15vh;
+    font-size: 7vh;
 
     position:relative;
     /* transform:translate(-100%, -50%); */
