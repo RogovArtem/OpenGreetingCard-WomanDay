@@ -80,6 +80,10 @@ body, html {
     position:relative;
     overflow:hidden;
     top:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 .new{
     width:100%;
