@@ -76,14 +76,14 @@ body, html {
 
 @media screen and (width>height)
 {
-  body or yourdiv element
+  .text > *
   {
     font-size: 8vh;
   }
 }
 @media screen and (height>width)
 {
-  body or yourdiv element
+  .text > *
   {
     font-size: 8vw;
   }
