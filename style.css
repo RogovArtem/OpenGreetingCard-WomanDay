@@ -63,8 +63,8 @@ body, html {
 
 .text > *{
     font-size: 2rem;
-    width: 80%;
-    height: 80%;
+    width: 70vh;
+    height: 70vh;
     position:relative;
     /* transform:translate(-100%, -50%); */
 }
@@ -79,7 +79,7 @@ body, html {
     width: 100%;
     position:relative;
     overflow:hidden;
-    top:50%;
+    top:40vh;
 }
 .new{
     width:100%
