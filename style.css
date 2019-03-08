@@ -74,14 +74,14 @@ body, html {
     /* transform:translate(-100%, -50%); */
 }
 
-@media screen and (width>height)
+@media all and (width>height)
 {
   .text > *
   {
     font-size: 8vh;
   }
 }
-@media screen and (height>width)
+@media all and (height>width)
 {
   .text > *
   {
