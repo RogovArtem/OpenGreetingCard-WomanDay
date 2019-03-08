@@ -97,6 +97,10 @@ body, html {
     align-items:center;
 }
 
+div span {
+  display:inline-block;
+}
+
 
 
 
