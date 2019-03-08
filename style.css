@@ -73,12 +73,7 @@ body, html {
     transform: translateY(100%);
     display:none;
 }
-.new, .text1, .text2, text3 {
 
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
 .text {
     transform:translate(-100%,-50%);
     width: 100%;
