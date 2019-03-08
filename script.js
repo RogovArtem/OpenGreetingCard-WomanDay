@@ -13,7 +13,7 @@ document.addEventListener('click', _=>{
     tl
         .to(hero, 1, {x:'100%', width:'100%'}, 'another')
         .to(overlay, 1, {width:'100%'}, 'another')
-        .to(hero, 0, {x:'-100%', backgroundImage:"linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url('nadeko.jpg')"}, 'some')
+        .to(hero, 0, {x:'-100%', backgroundImage:"linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('March_8_2.jpg')"}, 'some')
         .to(text, 0, {display:'block'}, 'some')
         .to(hero, 1, {x:'0%'},'slide')
         .to(overlay, 1, {width:0, right:0}, 'slide')
@@ -36,7 +36,7 @@ document.addEventListener('click', _=>{
     .to(hero, 2, {x:'-100%', width:'100%'}, 'steel')
     .to(overlay, 2, {width:'100%'},'steel')
     .to(overlay, 0.5, {width:0, left:0, delay:2}, 'steel')
-    .to(newOne, 2, {display:'block', opacity: 1, delay:3}, 'steel')
+    .to(newOne, 2, {display:'block',width:'100%', opacity: 1, delay:3}, 'steel')
 
     }
     counter++;
