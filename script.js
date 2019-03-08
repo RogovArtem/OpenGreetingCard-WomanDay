@@ -27,7 +27,7 @@ document.addEventListener('click', _=>{
     if (counter===2){
     tl
         .to(text2, 0.3, {display:'none', y:'-100%'})
-        .to(text3, 0.3, {display:'block', y:'0', delay:0.1})
+        .to(text3, 0.3, {display:'flex', y:'0', delay:0.1})
 
     }
     if (counter===3){
@@ -36,7 +36,7 @@ document.addEventListener('click', _=>{
     .to(hero, 2, {x:'-100%', width:'100%'}, 'steel')
     .to(overlay, 2, {width:'100%'},'steel')
     .to(overlay, 0.5, {width:0, left:0, delay:2}, 'steel')
-    .to(newOne, 2, {display:'block',width:'100%', opacity: 1, delay:3}, 'steel')
+    .to(newOne, 2, {display:'flex',width:'100%', opacity: 1, delay:3}, 'steel')
 
     }
     counter++;
